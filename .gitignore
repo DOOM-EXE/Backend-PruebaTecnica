@@ -1,0 +1,98 @@
+# .gitignore para proyecto .NET / ASP.NET Core
+# Generado para ignorar artefactos comunes de compilación, IDEs y macOS
+
+## Build / outputs
+/bin/
+/obj/
+**/bin/
+**/obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio cache/options
+.vs/
+/.vscode/
+
+## Rider
+.idea/
+*.sln.iml
+
+## NuGet
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+packages/
+
+## Visual Studio publish
+*.Publish.xml
+publish/
+*.pubxml
+*.publishproj
+
+## dotnet tools
+*.dotnet/tools
+
+## EF Core Migrations / model snapshots (si quieres mantenerlos en repo, no ignores)
+# Migrations are often checked into source control. No ignorar por defecto.
+
+## user secrets and local configuration
+# Ignorar secretos locales y archivos de desarrollo con datos sensibles
+secrets.json
+appsettings.Development.json
+appsettings.*.Local.json
+
+## Logs
+*.log
+logs/
+
+## Debugging
+*.vspscc
+*.dbmdl
+*.pdb
+
+## Test results
+TestResults/
+*.trx
+coverage/
+
+## Publish output
+publish/
+*.zip
+
+## Rider/IntelliJ
+/.idea
+*.iml
+
+## macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+## Linux
+*~
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Certificates
+*.pfx
+*.p12
+
+## Package manager folders
+node_modules/
+
+## Others
+*.vsix
+*.db
+*.sqlite
+*.sql
+
+# Allow this repo to keep an example of config if you want
+!appsettings.json
