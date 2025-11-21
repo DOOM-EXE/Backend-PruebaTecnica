@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/emmanuelsanchez/Documents/GitHub/Backend-prueba/VentasApiPrueba/VentasApiPrueba.csproj": {}
+    "D:\\Repositorios\\Backend-PruebaTecnica\\VentasApiPrueba\\VentasApiPrueba.csproj": {}
   },
   "projects": {
-    "/Users/emmanuelsanchez/Documents/GitHub/Backend-prueba/VentasApiPrueba/VentasApiPrueba.csproj": {
+    "D:\\Repositorios\\Backend-PruebaTecnica\\VentasApiPrueba\\VentasApiPrueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emmanuelsanchez/Documents/GitHub/Backend-prueba/VentasApiPrueba/VentasApiPrueba.csproj",
+        "projectUniqueName": "D:\\Repositorios\\Backend-PruebaTecnica\\VentasApiPrueba\\VentasApiPrueba.csproj",
         "projectName": "VentasApiPrueba",
-        "projectPath": "/Users/emmanuelsanchez/Documents/GitHub/Backend-prueba/VentasApiPrueba/VentasApiPrueba.csproj",
-        "packagesPath": "/Users/emmanuelsanchez/.nuget/packages/",
-        "outputPath": "/Users/emmanuelsanchez/Documents/GitHub/Backend-prueba/VentasApiPrueba/obj/",
+        "projectPath": "D:\\Repositorios\\Backend-PruebaTecnica\\VentasApiPrueba\\VentasApiPrueba.csproj",
+        "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositorios\\Backend-PruebaTecnica\\VentasApiPrueba\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/emmanuelsanchez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -106,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
