@@ -34,7 +34,6 @@ public class AuthController : ControllerBase
             if (!User.Identity?.IsAuthenticated ?? true)
                 return Unauthorized(new { message = "Solo administradores pueden crear usuarios con rol Admin o Vendedor" });
 
-            // Chequeo robusto de claim de rol (por si el token usa distintos claim types)
             bool HasRole(string role)
             {
                 if (User.IsInRole(role)) return true;
